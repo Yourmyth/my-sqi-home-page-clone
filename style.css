@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #fffdf4;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 0.5px solid #e5e3da;
+    position: fixed;
+}
+.img-logo img{
+    max-width: 70px;
+}
+.header-links ul li{
+    display: flex;
+    list-style: none;
+    display: inline;
+    background-color: #ffffff;
+    
+}
+
+.header-links ul li a{
+    color: #081f89;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    padding: 15px;
+    line-height: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.flex-containerI{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    padding: 0px 200px ;
+}
+
+.flex-containerI h2{
+    color: #000e42;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    padding:0px 150px 10px 0px;
+}
+.flex-containerI p{
+    color: #474747;
+    vertical-align: baseline;
+    padding-right: 70px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 18.8px;
+    font-weight: 500;
+}
+.flex-containerI button{
+    color: #ffffff;
+    background-color: #00208a;
+    border: none;
+    margin-top: 20px;
+    padding: 16px 32px;
+    font-size: 14px;
+    line-height: 28.8px;
+    font-weight: 600;
+    word-spacing: -0.14px;
+    border-radius: 10px;
+}
+.flex-containerII h2{
+    display: flex;
+    color: #050754;
+    font-size: 42px;
+    line-height: 50.4px;
+    font-weight: 600;
+    padding: 0px 0px 10px;
+    justify-content: start;
+    margin-left: 200px;
+}
+.card-containerI{
+    display: flex;
+    gap: 60px;
+    padding: 20.594px 200px;
+}
+.card-item1 img {
+    width: 100%;
+    color: #838383;
+}
+.card-item1 h2 {
+    color: #000E54;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 0px 10px;
+    width: 70%;
+    font-weight: 700;
+    justify-content: center;
+}
+.card-item1 p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 23.1px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.card-item1 a {
+    color: #26364E;
+    font-size: 16px;
+    padding: 4.8px 0px;
+    line-height: 27.2px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
